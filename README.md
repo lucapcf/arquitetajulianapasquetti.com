@@ -1,40 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Documentação do Site arquitetajulianapasquetti.com
 
-## Getting Started
+## 1. Introdução
 
-First, run the development server:
+Esse projeto é um website desenvolvido para a Arquiteta Juliana Pasquetti, também conhecida como "Minha Mãe". Utiliza Next.js e talvez o Netlify CMS com gerenciador de conteúdo ou terá um banco de dados como PostgreSQL ou Firebase, ainda não decidi.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 2. Configuração e Execução
+
+### 2.1 Pré-requisitos
+
+- Node.js
+- npm
+
+### 2.2 Instalação
+
+Clone o repositório:
+
+```
+git clone <URL_DO_REPOSITORIO>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Navegue até o diretório do projeto:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+cd arquitetajulianapasquetti.com
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Instale as dependências:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+npm i
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 2.3 Desenvolvimento
 
-## Learn More
+Para iniciar o servidor de desenvolvimento, execute:
 
-To learn more about Next.js, take a look at the following resources:
+```
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+O servidor estará disponível em `http://localhost:3000`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### 2.4 Build para Produção
 
-## Deploy on Vercel
+Para criar uma build para produção, execute:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+npm run build
+```

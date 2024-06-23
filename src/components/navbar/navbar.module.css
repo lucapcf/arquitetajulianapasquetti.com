@@ -1,0 +1,39 @@
+.logo {
+  margin-left: 0px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+.navbar {
+  background-color: rgba(25, 25, 25, 0.9);
+  padding: 1rem;
+  position: sticky;
+  height: 100px;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navLinks li {
+  margin: 0;
+  text-decoration: none;
+  /* list-style: none; */
+}
+
+.navLinks a {
+  text-decoration: none;
+}
+
+.navLinks a h3:hover {
+  /* text-decoration: underline; */
+  color: black;
+}
