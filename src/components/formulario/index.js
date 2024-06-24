@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import styles from './formulario.module.css'
-import { sendContactForm } from '@/lib/sendForm'
+import { sendContactForm } from '../../lib/sendForm'
 import { useForm } from 'react-hook-form'
 import { isEmail, isMobilePhone } from 'validator'
 import { FaRegComment, FaRegEnvelope, FaHome } from 'react-icons/fa'

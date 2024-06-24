@@ -1,10 +1,9 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from './navbar.module.css'
-import logo_j from '../../../public/media/logo_j.jpg'
 
 export default function Navbar() {
-  const img = "/media/logo_j.jpg";
+  const img = "media/logo_j.jpg";
 
   return (
     <>

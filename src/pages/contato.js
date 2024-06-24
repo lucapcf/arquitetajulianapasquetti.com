@@ -1,6 +1,6 @@
-import Navbar from '@/components/navbar';
-import Footer from '@/components/footer';
-import Formulario from '@/components/formulario';
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+import Formulario from '../components/formulario';
 
 export default function Contato() {
   const titulo = "Vamos conversar";

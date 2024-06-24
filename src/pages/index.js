@@ -1,11 +1,11 @@
-import Navbar from '@/components/navbar'
-import Footer from '@/components/footer'
-import styles from '@/styles/home.module.css'
+import Navbar from '../components/navbar'
+import Footer from '../components/footer'
+import styles from '../styles/home.module.css'
 
-import React from 'react';
+import React from 'react'
 
 export default function Home() {
-  const video = "/media/projetos/dinda/video_churrasqueira_sc.mp4";
+  const video = "media/projetos/dinda/video_churrasqueira_sc.mp4";
 
   return (
     <>

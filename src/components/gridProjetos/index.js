@@ -1,5 +1,5 @@
-import CardProjeto from '@/components/cardProjeto';
-import styles from './gridProjetos.module.css';
+import CardProjeto from '../cardProjeto'
+import styles from './gridProjetos.module.css'
 
 export default function GridProjetos({ projetos }) {
   return (

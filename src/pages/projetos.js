@@ -1,7 +1,7 @@
-import Navbar from '@/components/navbar'
-import Footer from '@/components/footer'
-import GridProjetos from '@/components/gridProjetos'
-import { handleJSONfiles } from '@/utils/jsonHandler'
+import Navbar from '../components/navbar'
+import Footer from '../components/footer'
+import GridProjetos from '../components/gridProjetos'
+import { handleJSONfiles } from '../utils/jsonHandler'
 
 export default function Projetos({ projetos }) {
   

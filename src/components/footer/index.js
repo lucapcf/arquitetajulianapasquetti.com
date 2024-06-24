@@ -10,7 +10,7 @@ export default function Footer() {
   const copy = "© Arquiteta Juliana Pasquetti Comelli 2022. Todos os direitos reservados.";
   const nome ="Arquiteta Juliana Pasquetti Comelli";
 
-  const img = "/media/logo_j_inverted.jpg";
+  const img = "media/logo_j_inverted.jpg";
 
   return (
     <>

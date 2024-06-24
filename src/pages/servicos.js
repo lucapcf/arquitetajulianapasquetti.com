@@ -1,7 +1,7 @@
-import Navbar from '@/components/navbar';
-import Footer from '@/components/footer';
-import ServicoL from '@/components/servicoL';
-import ServicoR from '@/components/servicoR';
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+import ServicoL from '../components/servicoL';
+import ServicoR from '../components/servicoR';
 
 export default function Servicos() {
   const interior = {
@@ -13,7 +13,7 @@ export default function Servicos() {
     dos materiais até a disposição dos móveis e a iluminação, cada elemento é 
     cuidadosamente selecionado para refletir a personalidade e o estilo de vida 
     de quem vai viver ou trabalhar no espaço.`,
-    imagem: "/media/Projetos/projeto_ap_602/projeto_ap_602.jpg",
+    imagem: "media/projetos/projeto_ap_602/projeto_ap_602.jpg",
   }
   const exterior = {
     titulo: "Exterior",
@@ -24,7 +24,7 @@ export default function Servicos() {
     A escolha de materiais adequados, o planejamento de paisagismo e a 
     incorporação de elementos arquitetônicos modernos garantem que cada projeto 
     seja único e atenda perfeitamente às expectativas dos nossos clientes.`,
-    imagem: "/media/Projetos/cobertura_bela_vista/Lu_cobertura_21/20211222_144401.jpg",
+    imagem: "media/projetos/cobertura_bela_vista/Lu_cobertura_21/20211222_144401.jpg",
   }
   const residencial = {
     titulo: "Residencial",
@@ -35,7 +35,7 @@ export default function Servicos() {
     sustentabilidade. Desde a concepção inicial até a conclusão da obra, 
     nosso foco está em criar espaços que proporcionem bem-estar e qualidade de 
     vida, respeitando o estilo pessoal de cada família.`,
-    imagem: "/media/Projetos/cobertura_bela_vista/Lu_cobertura_21/20211222_144401.jpg",
+    imagem: "media/projetos/cobertura_bela_vista/Lu_cobertura_21/20211222_144401.jpg",
   }
   const comercial = {
     titulo: "Comercial",
@@ -46,7 +46,7 @@ export default function Servicos() {
     a concepção de lojas e escritórios até a reforma de espaços existentes, 
     sempre com o objetivo de criar ambientes funcionais, modernos e alinhados 
     com a identidade da marca.`,
-    imagem: "/media/Projetos/top3/top3_depois_(5).jpg",
+    imagem: "media/projetos/top3/top3_depois_(5).jpg",
   }
   
   return (
